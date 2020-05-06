@@ -6,7 +6,7 @@
         </div>
     </div> -->
     <!-- 插件导航 -->
-    <v-nav></v-nav>
+    
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-shrink bounceInDown">
         <div class="container">
@@ -36,6 +36,7 @@
     			    <a class="search-btn"><i class="fa fa-location-arrow" aria-hidden="true"></i></a>
     			</form>
             </div>
+            <v-nav></v-nav>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -104,7 +105,7 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
 @import '../../static/css/bootstrap.css';
 @import '../../static/css/bootstrap.min.css';
 @import '../../static/css/animate.css';
@@ -166,9 +167,6 @@ export default {
     margin: 0;
   }
 
-  .el-carousel__item:nth-child(2n) {
-     background-color: #99a9bf;
-  }
   
   .el-carousel__item:nth-child(2n+1) {
      background-color: #d3dce6;

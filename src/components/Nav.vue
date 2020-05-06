@@ -41,7 +41,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 10px;
+ /* margin-top: 10px; */
 }
 .el-header {
   background-color: #c1cbd8;
@@ -53,8 +53,11 @@ export default {
   border: none;
 }
 #nav .el-menu.el-menu--horizontal {
-  float: right;
-  margin-right: 1.5em;
+ /* float: right;
+  margin-right: 1.5em; */
+  position: absolute;
+  top: 0px;
+  left: 900px;
 }
 #nav .el-menu--horizontal>.el-menu-item {
   height: 40px;

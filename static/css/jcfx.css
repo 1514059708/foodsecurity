@@ -37,18 +37,20 @@ ul {
 }
 
 .nav-content{
-    width: 250px;
-	min-height: 30em;
+    width: 450px;
+    min-height: 30em;
+    max-height: 34em;
 	margin-top: 3em;
 	float: left;
     position: absolute;
-	left: -6em;
-    background-color: rgba(0,0,0,0.4);
+	left: -400px;
+    background-color: rgba(33,36,37,.62);
 	color: #fff;
 	text-align: center;
     z-index: 99;
     filter: alpha(opacity=0);
     opacity: 0;
+    overflow: auto;
 }
 
 .nav-content .nav-con-close {
@@ -59,5 +61,12 @@ ul {
 }
 .sidebar-item-active {
     background: #ffc107;
+}
+
+/**分页样式 */
+.jcpage {
+    height: 50px;
+    text-align: left;
+    padding-left: 10px;
 }
 
